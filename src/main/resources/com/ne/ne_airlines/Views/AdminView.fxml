@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #190E4F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ne.ne_airlines.Controllers.AdminController">
+    <children>
+        <AnchorPane layoutY="69.0" prefHeight="330.0" prefWidth="700.0" style="-fx-background-color: #075ec8;">
+            <children>
+                <Button fx:id="fmanagBtn" layoutX="228.0" layoutY="34.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: #ffffff;" text="Flights Management">
+                    <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="backbtn" layoutX="31.0" layoutY="261.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" style="-fx-background-color: #023e8a;" text="Back" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri" size="18.0" />
+                    </font>
+                </Button>
+            <Button fx:id="layoversBtn" layoutX="228.0" layoutY="142.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: #ffffff;" text="Our Layovers">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="flightsBtn" layoutX="228.0" layoutY="87.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: #ffffff;" text="Our Flights">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bookingsBtn" layoutX="228.0" layoutY="195.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: #ffffff;" text="Our Bookings">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="37.0" layoutY="10.0" prefHeight="46.0" prefWidth="243.0" text="Admin Dashboard" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="561.0" layoutY="10.0" prefHeight="46.0" prefWidth="117.0" text="NE Airlines" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
